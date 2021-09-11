@@ -65,13 +65,13 @@ class BookController extends Controller
                         <b>Data de devolução:</b> '. $data->deliveryDate
                     );
 
-        $filename = 'storage\recibo'.$this->getDateToReceipt().'.pdf';
+        $filename = 'storage\recibo'.$this->getDateForReceipt().'.pdf';
         $pdf->save($filename);
 
         return $filename;
     }
 
-    public function getDateToReceipt(){
+    public function getDateForReceipt(){
         return Carbon::now()->format('dmYHis');
     }
     
