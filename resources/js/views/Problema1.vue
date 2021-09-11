@@ -34,12 +34,7 @@
                 fields: [{ key: 'month', label: 'Mês' },
                         'chico','juca'
                        ]
-               
-                    
-                
-               
-                
-                
+                              
             }
     },
     methods: {

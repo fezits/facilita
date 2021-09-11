@@ -10,10 +10,10 @@
                 <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
                     <b-nav-item><router-link :to="{name: 'home'}"><span  class="text-white pl-2"><b>FACILITA</b></span></router-link></b-nav-item>
-                    <b-nav-item><router-link :to="{name: 'problema-1'}"><span  class="text-white pl-2">Problema 1</span></router-link></b-nav-item>
-                    <b-nav-item><router-link :to="{name: 'problema-2'}"><span  class="text-white pl-2">Problema 2</span></router-link></b-nav-item>
-                    <b-nav-item><router-link :to="{name: 'problema-3'}"><span  class="text-white pl-2">Problema 3</span></router-link></b-nav-item>
-                    <b-nav-item><router-link :to="{name: 'problema-4'}"><span  class="text-white pl-2">Problema 4</span></router-link></b-nav-item>
+                    <b-nav-item><router-link :to="{name: 'problema-1'}"><span  class="text-white pl-2 link-150">Problema 1</span></router-link></b-nav-item>
+                    <b-nav-item><router-link :to="{name: 'problema-2'}"><span  class="text-white pl-2 link-150">Problema 2</span></router-link></b-nav-item>
+                    <b-nav-item><router-link :to="{name: 'problema-3'}"><span  class="text-white pl-2 link-150">Problema 3</span></router-link></b-nav-item>
+                    <b-nav-item><router-link :to="{name: 'problema-4'}"><span  class="text-white pl-2 link-150">Problema 4</span></router-link></b-nav-item>
                     
                 </b-navbar-nav>
                 
