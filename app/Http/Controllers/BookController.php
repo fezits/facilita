@@ -65,7 +65,7 @@ class BookController extends Controller
                         <b>Data de devolução:</b> '. $data->deliveryDate
                     );
 
-        $filename = 'storage\recibo'.$this->getDateForReceipt().'.pdf';
+        $filename = $_SERVER['DOCUMENT_ROOT'].'\storage\recibo'.$this->getDateForReceipt().'.pdf';
         $pdf->save($filename);
 
         return $filename;
